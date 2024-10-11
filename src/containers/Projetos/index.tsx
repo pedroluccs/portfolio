@@ -1,4 +1,9 @@
-import Projeto from '../../components/Projeto'
+import Projeto1 from '../../components/Projeto/projeto1'
+import Projeto2 from '../../components/Projeto/projeto2'
+import Projeto3 from '../../components/Projeto/projeto3'
+import Projeto4 from '../../components/Projeto/projeto4'
+import Projeto5 from '../../components/Projeto/projeto5'
+import Projeto6 from '../../components/Projeto/projeto6'
 import Titulo from '../../components/Titulo'
 
 import { Lista } from './styles'
@@ -8,28 +13,22 @@ const Projetos = () => (
     <Titulo fontSize={16}>Projetos</Titulo>
     <Lista>
       <li>
-        <Projeto />
+        <Projeto1 />
       </li>
       <li>
-        <Projeto />
+        <Projeto2 />
       </li>
       <li>
-        <Projeto />
+        <Projeto3 />
       </li>
       <li>
-        <Projeto />
+        <Projeto4 />
       </li>
       <li>
-        <Projeto />
+        <Projeto5 />
       </li>
       <li>
-        <Projeto />
-      </li>
-      <li>
-        <Projeto />
-      </li>
-      <li>
-        <Projeto />
+        <Projeto6 />
       </li>
     </Lista>
   </section>

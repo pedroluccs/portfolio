@@ -19,7 +19,7 @@ const Sidebar = (props: Props) => (
       <Descricao tipo="principal" fontSize={12}>
         Dev Front End
       </Descricao>
-      <BotaoTema onClick={props.trocaTema}>Trocar Tema</BotaoTema>
+      <BotaoTema onClick={props.trocaTema}>Dark Mode</BotaoTema>
     </SidebarContainer>
   </aside>
 )
